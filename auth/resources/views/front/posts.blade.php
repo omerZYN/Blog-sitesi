@@ -62,7 +62,7 @@ https://templatemo.com/tm-520-highway
                                             </div>
                                             <div class="col-md-6">
                                                 <ul class="share">
-                                                    <li>{{$article->created_at}}</li>
+                                                    <li>{{$article->created_at->diffForHumans()}}</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -81,43 +81,21 @@ https://templatemo.com/tm-520-highway
                         </div>
                         <ul>
 
-                            @foreach($articles as $article)
-                              <li><a href="single-post.html">
+                            @foreach($articles->slice(0, 4) as $article)
+                              <li><a href="{{route('page',$article->slug)}}">
                                   <img src="{{$article->image}}" alt="Recent Post 1">
                                   <div class="text">
                                       <h6>{{$article->title}}</h6>
-                                      <span>{{$article->created_at}}</span>
+                                      <span>{{$article->created_at->diffForHumans()}}</span>
                                   </div>
                               </li></a>
                           @endforeach
                         </ul>
                     </div>
-                    <div class="categories">
-                        <div class="sidebar-heding">
-                            <h2>Kategoriler</h2>
-                        </div>
-                        <ul>
-                          @foreach($categories as $category)
-                          <li><a href="#">{{$category->name}}</li>
-                        @endforeach
-                        </ul>
-                    </div>
 
 
 
 
-
-
-                    <div class="latest-gallery">
-                        <div class="sidebar-heding">
-                            <h2>Latest Gallery</h2>
-                        </div>
-                        <ul>
-                          @foreach($articles as $article)
-                                  <li><a href="#"></a><img src="{{$article->image}}" alt=""></a></li>
-                        @endforeach
-                        </ul>
-                    </div>
 
 
 
