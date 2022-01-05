@@ -21,7 +21,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                  <label>Yazı Resmi</label>
+                  <label>Yazı Resmi  </label>
                   <input type="file" name="image" class="form-control" required value=""></input>
                 </div>
                 <div class="form-group">
