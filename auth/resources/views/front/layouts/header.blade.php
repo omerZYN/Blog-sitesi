@@ -54,6 +54,7 @@
           <li><a href="{{route('allarticles')}}">Tüm Yazılarım</a></li>
           <li><a href="#team">Arkadaşlarım</a></li>
           <li><a href="{{ route('login') }}">Giriş Yap</a></li>
+          <li><a href="{{ route('register') }}">Kayıt Ol</a></li>
           <li><a href="#contact">Benimle konuş</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->

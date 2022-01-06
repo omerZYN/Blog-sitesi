@@ -18,9 +18,9 @@ class Abouts extends Migration
           $table->string('title');
           $table->string('image');
           $table->longText('content');
-          $table->longText('ara');
-          $table->longText('bara');
-          $table->longText('cara');
+          $table->longText('vizyon');
+          $table->longText('misyon');
+          $table->longText('gelecek');
           $table->string('slug');
           $table->softDeletes();
           $table->timestamps();

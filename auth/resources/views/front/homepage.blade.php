@@ -67,19 +67,19 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">{{$about->ara}}</p>
+              <p class="description">{{$about->vizyon}}</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">{{$about->bara}}</p>
+              <p class="description">{{$about->misyon}}</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">{{$about->cara}}</p>
+              <p class="description">{{$about->gelecek}}</p>
             </div>
 
           </div>

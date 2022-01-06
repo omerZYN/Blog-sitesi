@@ -34,15 +34,15 @@
                </div>
                <div class="form-group">
                  <label>Alt Başlık 1</label>
-                 <input type="text" name="undertitle1" class="form-control" required value="{{$about->ara}}"></input>
+                 <input type="text" name="undertitle1" class="form-control" required value="{{$about->vizyon}}"></input>
                </div>
                <div class="form-group">
                  <label>Alt Başlık 2</label>
-                 <input type="text" name="undertitle2" class="form-control" required value="{{$about->bara}}"></input>
+                 <input type="text" name="undertitle2" class="form-control" required value="{{$about->misyon}}"></input>
                </div>
                <div class="form-group">
                  <label>Alt Başlık 3</label>
-                 <input type="text" name="undertitle3" class="form-control" required value="{{$about->cara}}"></input>
+                 <input type="text" name="undertitle3" class="form-control" required value="{{$about->gelecek}}"></input>
                </div>
 
                <div class="form-group">

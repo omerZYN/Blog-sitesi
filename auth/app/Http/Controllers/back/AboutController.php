@@ -28,9 +28,9 @@ class AboutController extends Controller
       $request->image->move(public_path('uploads'),$imageName);
       $abouts->image='/uploads/'.$imageName;
     }
-    $abouts->ara=$request->undertitle1;
-    $abouts->bara=$request->undertitle2;
-    $abouts->cara=$request->undertitle3;
+    $abouts->vizyon=$request->undertitle1;
+    $abouts->misyon=$request->undertitle2;
+    $abouts->gelecek=$request->undertitle3;
 
     $abouts->save();
     return redirect()->route('hakkimda_index');
