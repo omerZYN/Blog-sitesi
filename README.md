@@ -17,6 +17,6 @@ $ php artisan migrate
 $ php artisan db:seed 
 //if take this "SQLSTATE[23000]: Integrity constraint violation:" error repeat "$ php artisan db:seed" one more time
 
-$ php artisan serve
+$ php artisan servea
 
 
