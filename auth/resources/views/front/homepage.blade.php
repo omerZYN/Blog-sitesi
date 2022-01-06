@@ -83,8 +83,9 @@
             </div>
 
           </div>
+        <div width="100" class="col-lg-6"> <img  src="{{asset($about->image)}}" height="400" width="500" alt=""> </div>
           @endforeach
-          <div width="100" class="col-lg-6"> <img  src="{{asset($about->image)}}" height="400" width="500" alt=""> </div>
+
         </div>
 
       </div>
